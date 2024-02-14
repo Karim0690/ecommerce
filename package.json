@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "@types/node": "^20.11.17",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "joi": "^17.12.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.1",
+    "multer": "^1.4.5-lts.1",
+    "qrcode": "^1.5.3",
+    "slugify": "^1.6.6",
+    "stripe": "^14.16.0"
+  },
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "20.10.0"
+  },
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
